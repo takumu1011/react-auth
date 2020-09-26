@@ -85,10 +85,18 @@ class App extends React.Component {
     return (
       <div className="todo">
         <p>{this.state.secretKey}</p>
-        <TodoForm value={this.state.newTodo} onChange={this.onChange} onSubmit={this.onSubmit} />
-        <TodoList todos={this.state.todos} onRemove={this.onRemove} onToggle={this.onToggle} />
+        <TodoForm
+          value={this.state.newTodo}
+          onChange={this.onChange}
+          onSubmit={this.onSubmit}
+        />
+        <TodoList
+          todos={this.state.todos}
+          onRemove={this.onRemove}
+          onToggle={this.onToggle}
+        />
         <p onClick={this.move} className="moveBtn">
-          どこかへ
+          認証へ
         </p>
       </div>
     );

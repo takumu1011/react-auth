@@ -3,7 +3,7 @@ import TodoForm from './TodoForm';
 import TodoList from './TodoList';
 const DEFAULT_TODOS = [
   { title: 'このページを見る', completed: true },
-  { title: 'どこかへをクリックしてみる', completed: false },
+  { title: '認証へをクリックしてみる', completed: false },
   { title: 'タスクを完了してみる。', completed: false },
   { title: 'タスクを追加してみる', completed: false },
   { title: 'タスクを削除してみる', completed: false },
